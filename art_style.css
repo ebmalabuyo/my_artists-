@@ -69,7 +69,7 @@ footer {
 
 .foot-left {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    outline: yellow solid;
+    /* outline: yellow solid; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -80,19 +80,37 @@ footer {
 }
 
 .foot-center {
-    outline: yellow solid;
+    /* outline: yellow solid; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     padding: 10px;
     width: 500px;
     font-size: 11pt;
     align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .foot-right {
+    display: flex;
+    outline: yellow solid;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 500px;
+    font-size: 11pt;    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
 
 
+.address {
+    outline: blue solid;
+    width: 175px;
+    
+    
 }
 
 .background-img {
@@ -175,8 +193,5 @@ footer {
     background-size: cover;
     color: white;
     margin-top: 10px;
-
-    
-
 }
 
