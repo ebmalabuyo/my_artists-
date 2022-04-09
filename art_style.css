@@ -1,24 +1,26 @@
 body {
-    background-color: rgb(204, 171, 171);
+    background-color: rgb(255, 97, 97);
     
 }
 
 a {
-    color: black;
+    color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     
 }
+
+    
 
 header {
     font-size: 12pt;
     display: flex;
     color: white;
     justify-content: space-between;
-    outline: solid black;
+    outline: solid black thick;
     height: 130px;
     width: 100%;
-    background-color: rgb(242, 139, 139);
+    background-color: rgb(247, 130, 130);
     border-radius: 10px;
     margin-bottom: 5px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -33,6 +35,7 @@ header {
     text-decoration: overline underline;
 }
 .logo {
+    font-style:oblique;
     width: 500px;
     text-align: center;
     
@@ -48,10 +51,48 @@ header {
 
 
 footer {
-    background-color: rgb(242, 139, 139);
-    height: 100px;
+    display: flex;
+    background-color: rgb(255, 97, 97);
+    margin-top: 2px;
+    height: 300px;
     border-radius: 5px;
-    border: solid black;
+    justify-content: space-evenly;
+    
+    
+}
+
+
+.foot-text {
+
+    text-decoration: solid underline;
+}
+
+.foot-left {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: yellow solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    width: 500px;
+    font-size: 11pt;
+}
+
+.foot-center {
+    outline: yellow solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    width: 500px;
+    font-size: 11pt;
+    align-items: center;
+}
+
+.foot-right {
+
+
 }
 
 .background-img {
@@ -127,13 +168,14 @@ footer {
     /* outline: solid yellow; */
     border-radius: 10px;
     /* border: solid white; */
-    height: 500px;
+    height: 570px;
     padding-top: 220px;
     align-items: end;
     justify-content: start;
     background-size: cover;
     color: white;
     margin-top: 10px;
+
     
 
 }
