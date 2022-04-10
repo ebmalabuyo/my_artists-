@@ -57,6 +57,7 @@ footer {
     height: 300px;
     border-radius: 5px;
     justify-content: space-evenly;
+    flex-basis: 100%;
     
     
 }
@@ -69,7 +70,7 @@ footer {
 
 .foot-left {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* outline: yellow solid; */
+    /* outline: yellow solid;  */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,24 +95,39 @@ footer {
 
 .foot-right {
     display: flex;
-    outline: yellow solid;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    /* outline: yellow solid; */
+    flex-direction: column;
+    /* align-items: center;*/
+    justify-content:;
     padding: 10px;
     width: 500px;
     font-size: 11pt;    
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    
 }
 
 
 .address {
-    outline: blue solid;
-    width: 175px;
-    
+    /* outline: blue solid; */
+    align-self: center;
+   width: 175px;
+    clear: both;
+    text-align: center;
+    margin-top: 50px; 
+    color: white;
     
 }
+
+.add-cont {
+
+    /*outline: blue solid; /*
+    height: 75px;
+    width: 100px;*/
+    text-align: center;
+        
+     
+
+} 
 
 .background-img {
     display: flex;
